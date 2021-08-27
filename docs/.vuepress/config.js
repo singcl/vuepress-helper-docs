@@ -21,7 +21,22 @@ module.exports = {
     // custom text for edit link. Defaults to "Edit this page"
     editLinkText: '编辑此页面',
     lastUpdated: '更新时间', // string | boolean
+    nav: [
+      { text: '首页', link: '/' },
+      { text: '用户手册', link: '/manual/' },
+      { text: '开发文档', link: '/development/' },
+      { text: '提问', link: 'https://gitee.com/JPressProjects/jpress/issues' },
+      {
+        text: '源码下载',
+        items: [
+          { text: 'Gitee', link: 'https://gitee.com/JPressProjects/jpress' },
+          { text: 'Github', link: 'https://github.com/JPressProjects/jpress' },
+        ],
+      },
+      { text: 'JPress VIP', link: '/vip' },
+    ],
   },
+
   head: [
     ['link', { rel: 'icon', href: '/logo.png' }],
     [
