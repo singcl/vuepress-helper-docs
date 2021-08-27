@@ -7,8 +7,20 @@ module.exports = {
   },
   theme: 'vuepress-theme-reco',
   themeConfig: {
+    // author
+    author: 'jpress',
     subSidebar: 'auto', //在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
-    sidebar: 'auto',
+    // if your docs are in a different repo from your main project:
+    docsRepo: 'singcl/vuepress-helper-docs',
+    // if your docs are in a specific branch (defaults to 'master'):
+    docsBranch: 'master',
+    // if your docs are not at the root of the repo:
+    docsDir: 'docs',
+    // defaults to false, set to true to enable
+    editLinks: true,
+    // custom text for edit link. Defaults to "Edit this page"
+    editLinkText: '编辑此页面',
+    lastUpdated: '更新时间', // string | boolean
   },
   head: [
     ['link', { rel: 'icon', href: '/logo.png' }],
