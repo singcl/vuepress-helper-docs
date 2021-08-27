@@ -11,6 +11,16 @@
 <img alt="license" src="https://img.shields.io/github/license/JpressProjects/jpress.svg?style=flat-square"/>
 </p>
 
+## JPress 简介
+
+JPress 是一个使用 Java 开发的、`开源免费` 的建站神器，灵感来源于 WordPress，目前已经有超过 10w+ 的网站使用 JPress 搭建，其中包括多个政府机构，200+上市公司，中科院、红十字会等。
+
+## JPress 联系方式
+
+1. JPress 官方网站：[http://www.jpress.io](http://www.jpress.io)
+2. JPress 官方公众号：jpressio
+3. JPress 交流 QQ 群：288397536
+
 <!-- Markdown变量 -->
 
 [release]: https://img.shields.io/github/release/JpressProjects/jpress.svg?style=flat-square

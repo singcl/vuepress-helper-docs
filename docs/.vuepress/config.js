@@ -6,6 +6,10 @@ module.exports = {
     lineNumbers: true,
   },
   theme: 'vuepress-theme-reco',
+  themeConfig: {
+    subSidebar: 'auto', //在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
+    sidebar: 'auto',
+  },
   head: [
     ['link', { rel: 'icon', href: '/logo.png' }],
     [
