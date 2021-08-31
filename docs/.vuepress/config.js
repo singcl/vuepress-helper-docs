@@ -54,8 +54,8 @@ module.exports = {
             { title: '在 Mac 上安装', path: '/manual/install_mac' },
             { title: '在 Docker 上安装', path: '/manual/install_docker' },
             { title: '在宝塔上安装', path: '/manual/install_baota' },
-            // { title: '一键安装', path: '/manual/install_oneclick' },
-            // { title: '如何升级', path: '/manual/upgrade' },
+            { title: '一键安装', path: '/manual/install_oneclick' },
+            { title: '如何升级', path: '/manual/upgrade' },
           ],
         },
         // {
