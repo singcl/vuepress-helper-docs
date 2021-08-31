@@ -1,7 +1,7 @@
 {
-  "name": "react-hooks-server",
+  "name": "vuepress-helper-docs",
   "version": "1.0.0",
-  "description": "react hooks",
+  "description": "帮助文档",
   "main": "app.js",
   "private": true,
   "scripts": {
@@ -12,6 +12,10 @@
     "hooks"
   ],
   "author": "singcl",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/singcl/vuepress-helper-docs"
+  },
   "license": "ISC",
   "dependencies": {
     "compression": "^1.7.1",
