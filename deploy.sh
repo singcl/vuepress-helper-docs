@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "正在压缩, 请稍后..."
 mv ./docs/.vuepress/dist ./server/
-tar -zcvf vuepress-helper-docs.gz ./server ./README.md ./build_production.sh
+tar -zcvf vuepress-helper-docs.tar.gz ./server ./README.md ./build_production.sh
 
 echo "上传中..."
 
