@@ -159,13 +159,13 @@ module.exports = {
       'script',
       {},
       `
-            var _hmt = _hmt || [];
-            (function() {
-              var hm = document.createElement("script");
-              hm.src = "https://hm.baidu.com/hm.js?13a39a1b1e7fb17e8f806d1fb6207796";
-              var s = document.getElementsByTagName("script")[0]; 
-              s.parentNode.insertBefore(hm, s);
-            })();
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?e8739ef655ca13fe1891e957be8ec919";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
         `,
     ],
   ],
