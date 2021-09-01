@@ -5,7 +5,7 @@ module.exports = {
   markdown: {
     lineNumbers: true,
   },
-  theme: 'vuepress-theme-reco',
+  theme: 'vuepress-theme-hope',
   themeConfig: {
     // author
     author: 'jpress',
