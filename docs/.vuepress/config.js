@@ -8,7 +8,7 @@ module.exports = {
   theme: 'vuepress-theme-hope',
   themeConfig: {
     // author
-    author: 'jpress',
+    author: 'singcl',
     subSidebar: 'auto', //在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
     // if your docs are in a different repo from your main project:
     docsRepo: 'singcl/vuepress-helper-docs',
